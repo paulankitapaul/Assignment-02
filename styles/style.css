@@ -384,7 +384,161 @@ body {
 
 }
 
+/* Teams style*/
 
+.meet-team {
+
+    width: 100%;
+}
+
+.meet-containers {
+
+    width: 671px;
+    margin: 0 auto;
+    text-align: center;
+
+    margin-bottom: 50px;
+
+}
+
+.meet-heading {
+
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 3rem;
+    font-weight: 900;
+
+    margin-bottom: 15px;
+
+}
+
+.meet-description {
+
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: .8rem;
+    font-weight: 400;
+
+}
+
+.members {
+
+    width: 65%;
+    margin: 0 auto;
+
+    margin-bottom: 90px;
+    background-color: rgb(34, 34, 34);
+    border-radius: 18px;
+    display: grid;
+
+    grid-template-columns: repeat(3, 1fr);
+
+}
+
+.image-1 {
+
+    width: 327px;
+    height: 272px;
+    margin: 25px;
+
+    background-image: url('../images/trainer1.png');
+    background-size: cover;
+    border-radius: 18px;
+
+    flex-direction: column;
+    justify-content: end;
+
+}
+
+.image-2 {
+
+    width: 327px;
+    height: 272px;
+    margin: 25px;
+
+    background-image: url('../images/trainer2.png');
+    background-size: cover;
+    border-radius: 18px;
+
+    flex-direction: column;
+    justify-content: end;
+
+}
+
+.image-3 {
+
+    width: 327px;
+    height: 272px;
+    margin: 25px;
+
+    background-image: url('../images/trainer3.png');
+    background-size: cover;
+    border-radius: 18px;
+
+    flex-direction: column;
+    justify-content: end;
+
+}
+
+.image-4 {
+
+    width: 327px;
+    height: 272px;
+    margin: 25px;
+
+    background-image: url('../images/trainer4.png');
+    background-size: cover;
+    border-radius: 18px;
+
+    flex-direction: column;
+    justify-content: end;
+
+}
+
+.image-5 {
+
+    width: 327px;
+    height: 272px;
+    margin: 25px;
+
+    background-image: url('../images/trainer5.png');
+    background-size: cover;
+    border-radius: 18px;
+
+    flex-direction: column;
+    justify-content: end;
+
+}
+
+.image-6 {
+    width: 327px;
+    height: 272px;
+    margin: 25px;
+
+    background-image: url('../images/trainer6.png');
+    background-size: cover;
+    border-radius: 18px;
+
+    flex-direction: column;
+    justify-content: end;
+
+}
+
+.name {
+
+    font-size: 1.5rem;
+    color: white;
+    margin-left: 10px;
+    margin-bottom: 2px;
+}
+
+.trainer {
+
+    font-size: 1rem;
+    color: rgba(255, 255, 255, 0.65);
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
 
 
 
@@ -445,13 +599,13 @@ body {
         margin: 0 auto;
     }
 
-    .habit-header {
+    .habit-header, .meet-containers {
 
         width: 318px;
         margin: 0 auto;
     }
 
-    .habit-heading {
+    .habit-heading, .meet-heading {
 
         font-size: 2rem;
     }
