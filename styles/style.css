@@ -439,7 +439,7 @@ body {
 
     width: 327px;
     height: 272px;
-    margin: 25px;
+    margin: 20px;
 
     background-image: url('../images/trainer1.png');
     background-size: cover;
@@ -454,7 +454,7 @@ body {
 
     width: 327px;
     height: 272px;
-    margin: 25px;
+    margin: 20px;
 
     background-image: url('../images/trainer2.png');
     background-size: cover;
@@ -469,7 +469,7 @@ body {
 
     width: 327px;
     height: 272px;
-    margin: 25px;
+    margin: 20px;
 
     background-image: url('../images/trainer3.png');
     background-size: cover;
@@ -484,7 +484,7 @@ body {
 
     width: 327px;
     height: 272px;
-    margin: 25px;
+    margin: 20px;
 
     background-image: url('../images/trainer4.png');
     background-size: cover;
@@ -499,7 +499,7 @@ body {
 
     width: 327px;
     height: 272px;
-    margin: 25px;
+    margin: 20px;
 
     background-image: url('../images/trainer5.png');
     background-size: cover;
@@ -513,7 +513,7 @@ body {
 .image-6 {
     width: 327px;
     height: 272px;
-    margin: 25px;
+    margin: 20px;
 
     background-image: url('../images/trainer6.png');
     background-size: cover;
@@ -529,18 +529,102 @@ body {
     font-size: 1.5rem;
     color: white;
     margin-left: 10px;
+
     margin-bottom: 2px;
+
 }
 
 .trainer {
 
     font-size: 1rem;
     color: rgba(255, 255, 255, 0.65);
+
     margin-left: 10px;
     margin-bottom: 10px;
+
 }
 
 
+/* footer part style */
+
+.footer {
+
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.footer-container {
+
+    width: 60%;
+    margin: 0px auto;
+    justify-content: space-between;
+
+}
+
+.footer-header {
+
+    width: 443px;
+}
+
+.footer-title {
+
+    font-size: 4rem;
+}
+
+.footer-description {
+
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+
+    font-size: .8rem;
+    font-weight: 400;
+}
+
+.info {
+
+    width: 181px;
+}
+
+.info-heading {
+
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 2rem;
+
+    font-weight: 700;
+}
+
+.info-description {
+
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 1.4rem;
+
+    font-weight: 400;
+}
+
+hr {
+
+    width: 1040px;
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    margin: 0 auto;
+
+    margin-top: 50px;
+}
+
+
+.copyright {
+
+    text-align: center;
+
+    margin: 35px 0px;
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+
+    font-size: 1.2rem;
+    font-weight: 400;
+
+}
 
 
 
@@ -637,5 +721,29 @@ body {
         width: 287px;
         height: 170px;
         margin: 30px;
+
+    }
+
+    
+    .members {
+
+        width: 90%;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    
+    .footer-header{
+
+        width: 100%;
+    }
+
+    .footer-container{
+
+        flex-direction: column;
+        gap: 35px;
+
+    }
+
+    hr{
+        width: 100%;
     }
 }
