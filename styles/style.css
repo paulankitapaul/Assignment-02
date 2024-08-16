@@ -627,6 +627,125 @@ hr {
 }
 
 
+/* BMI style */
+
+.bmi {
+
+    width: 100%;
+
+    margin-bottom: 70px;
+
+}
+
+.bmi-top {
+
+    margin-left: 30%;
+    margin-bottom: 50px;
+
+}
+
+.bmi-heading {
+
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 3rem;
+    font-weight: 900;
+
+
+    margin-bottom: 5px;
+}
+
+.bmi-description {
+
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: .8rem;
+    font-weight: 400;
+
+    margin-bottom: 20px;
+}
+
+.calculator {
+
+    width: 100%;
+    background-color: rgb(34, 34, 34);
+
+    justify-content: space-around;
+    padding: 25px;
+}
+
+.chart-heading {
+
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 1.5rem;
+    font-weight: 900;
+
+    margin-bottom: 15px;
+
+}
+
+table {
+
+    border-collapse: collapse;
+    margin-bottom: 25px;
+
+}
+
+th,
+td {
+
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 15px 25px 15px 10px;
+
+    color: rgba(255, 255, 255, 0.5);
+
+    font-family: Inter;
+    font-size: .8rem;
+    font-weight: 400;
+
+}
+
+th {
+
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: .8rem;
+
+    font-weight: 500;
+
+}
+
+.bmi-check {
+    width: 577px;
+}
+
+#age{
+    width: 275px;
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+}
+
+#factor{
+    width: 560px;
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+}
+
+input, select {
+
+    width: 215px;
+    border-radius: 8px;
+
+    padding: 12px 40px 12px 20px;
+    border: none;
+
+    background-color: rgba(255, 255, 255, 0.1);
+    margin-left: 5px;
+    margin-bottom: 7px;
+
+    
+}
 
 
 
@@ -639,12 +758,18 @@ hr {
 
 @media screen and (max-width:576px) {
     .navbar {
+
         display: none;
     }
 
-    .header-container {
+    .header-container, .calculator, .bmi-check, #factor {
+
         flex-direction: column;
+
         margin: 0 auto;
+
+        width: 100%;
+
     }
 
     .header-content {
@@ -683,7 +808,7 @@ hr {
         margin: 0 auto;
     }
 
-    .habit-header, .meet-containers {
+    .habit-header, .meet-containers, .bmi-top {
 
         width: 318px;
         margin: 0 auto;
@@ -744,6 +869,10 @@ hr {
     }
 
     hr{
+        width: 100%;
+    }
+
+    #factor, .bmi-check{
         width: 100%;
     }
 }
